@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import gamepad from "../../public/images/gamepad.png";
+import gamepad from "../../public/images/goods/gamepad.png";
 import NextBreadcrumb from "../components/NextBreadcrumb/NextBreadcrumb";
 
 const Cart = () => {
@@ -25,7 +25,7 @@ const Cart = () => {
           <div className={styles.productsInCartHeader}>
             <div className={styles.productInfoHeaderText}>
               <div className={styles.cartImageContainer}>
-                <Image className={styles.cartImage} src={"../../public/images/gamepad.png"} alt="gamepad" />
+                <Image className={styles.cartImage} src={gamepad} alt="gamepad" />
               </div>
               <div className={styles.cartGoodName}>H1 Gamepad</div>
             </div>
