@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import gamepad from "../../../public/images/gamepad.png";
+import gamepad from "../../public/images/gamepad.png";
 import NextBreadcrumb from "../components/NextBreadcrumb/NextBreadcrumb";
 
 const Cart = () => {
