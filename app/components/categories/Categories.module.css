@@ -1,0 +1,216 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 143px;
+    width: 70%;
+}
+
+.containerForRectangleText{
+    display: flex;
+    align-items: center;
+}
+
+.upperblockText{
+    margin-left: 15px;
+    color: #DB4444;
+    
+}
+
+.flashSalesText{
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+
+.flashSalesTextTimerArrows{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.arrows{
+    display: flex;
+}
+
+.numberSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: 200px;
+    max-height: 100vh;
+    
+  }
+  
+  .arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: #fff;
+    cursor: pointer;
+  }
+  
+  .arrowLeft {
+    left: 5px;
+    display: none;
+  }
+
+  .arrowsIcons{
+    border-radius: 50%;
+    width: 30px;
+    padding: 4px;
+    transition: 180ms;
+    background-color: #f5f5f5;
+    margin-left: 10px;
+  }
+
+  .arrowsIcons:hover{
+    background-color: #c5c5c5;
+  }
+  
+  .arrowRight {
+    left: auto;
+    right: 5px;
+    display: none;
+  }
+  
+  .arrowDisabled {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navigationWrapper {
+    position: relative;
+    width: 70%;
+    height: 200px;
+  }
+  
+  .dots {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  
+  .dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #c5c5c5;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dot:focus {
+    outline: none;
+  }
+  
+  .dot.active {
+    background: #e84242;
+  }
+  
+  .keenSlider {
+     transition: height 0.9s;
+  }
+   
+  .keenSlider .keenSlider__slide {
+     min-height: auto !important;
+  }
+  
+  .containForSlider{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  .icons{
+    width: 350px;
+  }
+  
+  .hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .numberSlide1{
+    height: 350px;
+  }
+  
+  .contentInCaruseleContainerForPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+  
+  .phoneName{
+    color:#fff;
+    font-size: 16px;
+  }
+  
+  .LogoAndNameContainer{
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainTextInCarusele{
+    color:#fff;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .contentInCaruseleContainer{
+    display: flex;
+  }
+  
+  .shopNow{
+    color:#fff;
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  
+  .contentInCaruseleContainerForTetx{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 34%;
+  }
+  
+  .contentInCaruseleContainerForTetxFlex{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 20%;
+  }
+  
+  .phoneName{
+    padding-left: 20px;
+  }
+  
+  .shopNowButtonContainer{
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .shopNowButton{
+    width: 15px;
+  }
+  

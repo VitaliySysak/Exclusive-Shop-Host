@@ -1,0 +1,59 @@
+/* components/features/Features.module.css */
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  width: 70%;
+}
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+.iconContainer {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deliveryIcon {
+  background-image: url('/images/Services=Delivery.png');
+}
+
+.customerServiceIcon {
+  background-image: url('/images/Services=Delivery.png');
+}
+
+.moneyBackIcon {
+  background-image: url('/images/Services=Delivery.png');
+}
+
+.featureTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.featureDescription {
+  font-size: 0.9rem;
+  color: #555;
+}

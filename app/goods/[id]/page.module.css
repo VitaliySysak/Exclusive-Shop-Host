@@ -1,0 +1,177 @@
+.goodName {
+  margin-top: 60px;
+}
+
+.mainContainer {
+  padding: 0 15% 0 15%;
+  height: 724px;
+}
+
+.goodContainer {
+  height: 500px;
+  display: flex;
+  margin-top: 60px;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.smallImages {
+  width: 170px;
+  height: 138px;
+}
+
+.goodsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainImage {
+  width: 500px;
+  height: 600px;
+}
+
+.goodDescriptionContainer {
+  width: 400px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goodTitle {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.goodStats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.stars {
+  width: 100px;
+  height: 20px;
+}
+
+.price {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.goodColor {
+  display: flex;
+  align-items: center;
+}
+
+.circles {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.goodConfig {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+.sizeBox {
+  border: 1px solid #7d8184;
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  font-size: medium;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodColor {
+  max-width: 100px;
+}
+
+.goodQuantityContainer {
+  display: flex;
+  height: 44px;
+}
+
+.addAndRemoveIcons {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.counter {
+  width: 80px;
+  border: 1px solid #7d8184;
+  text-align: center;
+}
+
+.addButton {
+  background-color: #db4444;
+  width: 41px;
+  border: 1px solid #7d8184;
+}
+
+.removeButton {
+  width: 41px;
+  border: 1px solid #7d8184;
+}
+
+.buyNowButton {
+  background-color: #db4444;
+  display: flex;
+  height: 44px;
+  color: #fafafa;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heartIcon {
+  width: 34px;
+  height: 34px;
+}
+
+.heartContainer {
+  border: 1px solid #7d8184;
+  border-radius: 5px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deliveryBlock {
+  border: 1px solid #7d8184;
+  display: flex;
+  height: 90px;
+  align-items: center;
+}
+
+.deliveryDescription {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.deliveryTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.deliveryIcons {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

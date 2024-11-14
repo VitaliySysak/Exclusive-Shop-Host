@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.frame {
+  width: 230px;
+  height: 230px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.frame:hover .addToCartButton {
+  opacity: 1;
+}
+
+.goodImage {
+  background-image: url("../../../public/images/gamepad.png");
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.discount {
+  width: 55px;
+  height: 26px;
+  background-color: #db4444;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.goodPrice {
+  display: flex;
+}
+
+.newPrice {
+  margin-right: 20px;
+  color: #db4444;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: grey;
+}

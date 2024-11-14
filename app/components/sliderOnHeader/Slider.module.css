@@ -1,0 +1,220 @@
+.numberSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 200px;
+  max-height: 100vh;
+  
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrowLeft {
+  left: 5px;
+  display: none;
+}
+
+.arrowRight {
+  left: auto;
+  right: 5px;
+  display: none;
+}
+
+.arrowDisabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.navigationWrapper {
+  position: relative;
+  width: 70%;
+  height: 350px;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #e84242;
+}
+
+.keenSlider {
+   transition: height 0.9s;
+}
+ 
+.keenSlider .keenSlider__slide {
+   min-height: auto !important;
+}
+
+.containForSlider{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.icons{
+  width: 350px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.numberSlide1{
+  background-color: black;
+  height: 350px;
+}
+
+.numberSlide2{
+  background-color: black;
+
+}
+
+.numberSlide3{
+  background-color: black;
+
+}
+
+.numberSlide4{
+  background-color: black;
+
+}
+
+.numberSlide5{
+  background-color: black;
+}
+
+.numberSlide6{
+  background-color: black;
+}
+
+.contentInCaruseleContainerForPhoto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.phoneName{
+  color:#fff;
+  font-size: 16px;
+}
+
+.LogoAndNameContainer{
+  display: flex;
+  align-items: center;
+  position: relative; /* або 'absolute', якщо потрібно точне позиціонування */
+  z-index: 2;
+}
+
+.contentInCaruseleContainerForPhoto {
+  position: relative;
+  z-index: 1; /* встановлює елемент нижче 'LogoAndNameContainer' */
+}
+
+.mainTextInCarusele{
+  color:#fff;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.contentInCaruseleContainer{
+  display: flex;
+  position: relative;
+}
+
+.shopNow{
+  color:#fff;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.contentInCaruseleContainerForTetx{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 34%;
+}
+
+.contentInCaruseleContainerForTetxFlex{
+  display: flex;
+  align-items: start;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
+.phoneName{
+  padding-left: 20px;
+}
+
+.shopNowButtonContainer{
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.shopNowButton{
+  width: 15px;
+}
+
+@media (max-width: 1350px){
+  .contentInCaruseleContainer{
+    flex-direction: column;
+  }
+  .mainTextInCarusele{
+    display: none;
+  }
+  .shopNow{
+    display: none;
+  }
+  .shopNowButton{
+    display: none;
+  }
+  .contentInCaruseleContainerForTetx{
+    width: 100%;    
+    padding-left: 0%;
+    margin-top: 20px;
+  }
+  .contentInCaruseleContainerForTetxFlex{
+    align-items: center;
+    justify-content: center;
+    padding-left: 0%;
+  }
+}

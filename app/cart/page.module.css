@@ -1,0 +1,128 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 500px;
+}
+
+.container {
+  width: 70%;
+}
+
+.productInfoContainer {
+  padding-top: 90px;
+}
+
+.productInfoHeader,
+.productsInCartHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Column layout */
+  height: 70px;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 0 1px #d3d3d3, 0 0 0 2px #e0e0e0, 0 0 0 3px #f0f0f0;
+  align-items: center; /* Center items vertically */
+  text-align: center; /* Center items horizontally */
+}
+
+.productInfoHeaderText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productsInCart {
+  padding-top: 30px;
+}
+
+.inputForQuantity {
+  width: 70px;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 4px;
+  color: #333;
+  text-align: center;
+}
+
+.cartImage {
+  width: 54px;
+  height: 54px;
+}
+
+.cartGoodName {
+  padding-left: 20px;
+}
+
+.twoButtons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+
+.ReturnToShop,
+.UpdateCart {
+  width: 210px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.couponAndCartTotalContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.couponCodeInput {
+  width: 300px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.applyCouponBtn {
+  width: 210px;
+  height: 50px;
+  background-color: #db4444;
+  color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.cartTotalBox {
+  width: 470px;
+  height: 320px;
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+.carTotalText {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.NameAndValue {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.line {
+  padding-bottom: 10px;
+}
+
+.ProceesToCheckoutBtn {
+  width: 260px;
+  height: 50px;
+  background-color: #db4444;
+  color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin: 0 auto;
+  display: block;
+}

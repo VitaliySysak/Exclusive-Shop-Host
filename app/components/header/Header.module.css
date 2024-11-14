@@ -1,0 +1,172 @@
+.container {
+    height: 150px;
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 48px;
+    background-color: var(--upper-header-bg);
+    color: #FAFAFA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vector {
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.text {
+    margin-left: 150px;
+    font-size: 14px;
+    margin-left: 20%;
+}
+
+.languageSelector {
+    display: inline-block;
+    margin-right: 8%;
+}
+
+.language {
+    display: inline-block;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 50px 0px 20px 0px;
+}
+
+.navBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+}
+
+.brandName {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.icons {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.nuvButonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    position: relative;
+    z-index: 3;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    background-color: #F5F5F5; 
+    width: 250px;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.inputSearhFooter{
+    border: none; 
+    background: none; 
+    color: white; 
+    font-size: 16px; 
+    outline: none;
+    width: 200px; 
+    caret-color: black;
+}
+
+.search {
+    width: 25px;
+    height: 25px;
+}
+
+.shopNow {
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.nuvButons{
+    transition: 300ms;
+}
+
+.nuvButons:hover{
+    color: #c3c3c3;
+}
+
+.mainMenuAccButton {
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.mainMenuAccButton:hover {
+    color: #c3c3c3;
+}
+    
+.dropdownAccount {
+    position: relative;
+    display: inline-block;
+}
+
+.accDropdownChild {
+    display: none;
+    background-color: rgba(57, 57, 57, 0.755);
+    backdrop-filter: blur(5px);
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    z-index: 1; 
+    border-radius: 8px;
+
+}
+
+.accDropdownChild a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 250px;
+}
+
+.accDropdownChild img {
+    all: unset;
+    width: 25px;
+    margin: 4px;
+}
+
+.dropdownAccount:hover .accDropdownChild {
+    display: block;
+}
+
+.containerForMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 10px;
+
+}

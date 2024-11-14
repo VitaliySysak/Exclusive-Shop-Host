@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.frame{
+    width: 170px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F5F5F5; 
+    transition: background-color 0.2s ease;
+}
+
+.frame:hover{
+    width: 170px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F5F5F5; 
+    background-color: rgb(217, 113, 113);
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone{
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
