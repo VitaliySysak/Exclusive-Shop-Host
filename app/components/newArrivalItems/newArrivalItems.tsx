@@ -7,7 +7,7 @@ export const NewArrivalItems = () => {
     {
       title: 'PlayStation 5',
       description: 'Black and White version of the PS5 coming out on sale.',
-      image: '../../../public/images/playStation5.png',
+      image: '/images/playStation5.png',
       alt: 'PlayStation 5',
       link: '/shop/playstation5',
       large: true,
